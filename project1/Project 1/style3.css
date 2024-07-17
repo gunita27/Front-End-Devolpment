@@ -1,0 +1,115 @@
+@import url(https://db.onlinewebfonts.com/c/6ab539c6fc2b21ff0b149b3d06d7f97c?family=Minecraft+Regular);
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.mode
+{
+    background: #131414;
+    text-align: center;
+}
+.mode h1
+{
+    text-transform: uppercase;
+    font-family: "Minecraft Regular";
+    font-size: 95px;
+    color: #fff;
+    padding-top: 50px;
+    margin-bottom: 70px;
+}
+.bacolor
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.wrapper
+{
+    margin: 50px auto;
+    width: 75%;
+    text-align: center;
+}
+.wrapper img
+{
+    max-width: 620px;
+    float:left;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    margin-right: 70px;
+    transition: 0.5s ease ;
+}
+.text-box
+{
+    color: #fff;
+}
+.text-box h1
+{
+    margin-top: 100px;
+    font-family: "Minecraft regular";
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.text-box p
+{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.wrapper2
+{
+    margin: 50px auto;
+    width: 75%;
+    text-align: center;
+}
+.wrapper2 img
+{
+    max-width: 620px;
+    float: right;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    margin-left: 70px;
+    transition: 0.5s ease;
+}
+.wrapper img:hover , .wrapper2 img:hover
+{
+    transform: scale(1.2);
+}
+.friend
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.public
+{
+    text-align: center;
+    width: 30%;
+}
+.public h1
+{
+    padding-top: 60px;
+    font-size: 50px;
+    font-family: "Minecraft Regular";
+    text-transform: uppercase;
+}
+.public p
+{
+    margin-top: 25px;
+    font-size: 18.5px;
+}
+.wall
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.wall img
+{
+    margin-top: 40px;
+    width: 60%;
+    border: 5px solid #000000;
+}

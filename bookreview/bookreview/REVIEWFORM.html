@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review form</title>
+</head>
+<header><table> 
+<center>
+    <nav>
+        <a href="http://127.0.0.1:3000/.vscode/bookreview/HOME.html">Home</a>
+        <a href="http://127.0.0.1:3000/.vscode/bookreview/BOOKS.html">Books</a>
+    </nav></center>
+</table>
+</header>
+
+<body bgcolor=#F0EBE7> <center>
+   <form action="BOOKS.html"> <table border="" cellpadding="0" cellspacing="5px">
+    <tr><th>
+        <label>First Name:</label>
+        <input type="text"></th></tr><br>
+        <tr><th><label for="lastname">Last Name:</label>
+        <input type="text" name="lastname_" id="lastname"></th></tr><br>
+        <tr><th><label for="email">E-mail:</label>
+        <input type="email" name="email" id="email"></th></tr><br>
+       <tr> <th><label for="Books">Book Name:</label>
+        <input type="text" name="Books" id="Books"></th></tr><br>
+        <tr><th><label for="Book Cover">Book Cover:</label>
+        <input type="file" name="Book Cover" id="Book Cover"></th></tr><br>
+        <tr><th><label for="genre">Genre:</label>
+        <select name="genre" id="genre">
+            <option value="genre1">Self-help Book</option>
+            <option value="genre2">Fictional</option>
+            <option value="genre3">Non-Fiction</option>
+            <option value="genre4">Mystery</option>
+        </select></th></tr><br>
+        <tr><th><label for="review">Review:</label><br>
+        <textarea name="review" id="review" rows="4" cols="20">enter your text here</textarea></th></tr>
+        <br>
+   </table>
+    <button value="Submit">SUBMIT</button>
+    <a><button value="reset">RESET</button></a> </form>
+</center>
+</body>
+<footer><center>
+    <nav>
+        <a href="http://127.0.0.1:3000/.vscode/bookreview/HOME.html">Home</a>
+        <a href="http://127.0.0.1:3000/.vscode/bookreview/BOOKS.html">Reviewed books</a>
+    </nav></center>
+</footer>
+</html>

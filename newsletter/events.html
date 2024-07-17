@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: rgb(67, 65, 65);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #header img {
+            height: 60px;
+            margin-left: 20px;
+        }
+
+        #header nav {
+            flex-grow: 1;
+            text-align: right;
+        }
+
+        #header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+
+        #header a:hover {
+            color: #ddd;
+        }
+
+        #content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        #content div {
+            width: 48%;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+        }
+
+        #content img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #footer {
+            background-color: rgb(67, 65, 65);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            clear: both;
+        }
+
+        #footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        #header {
+            background-color: rgb(67, 65, 65);
+            color: white;
+        }
+
+        #events {
+            color: white;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        #home {
+            margin-left: 200px;
+            margin-right: 70px;
+        }
+
+        #logo {
+            align-content: left;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <center>
+                <img id="logo" src="Chitkara University.png" alt="logo" height="200px">
+                <a id="home" href="http://127.0.0.1:3000/newsletter/index.html">Home</a>
+                <a id="events" href="http://127.0.0.1:3000/newsletter/events.html">Events</a>
+            </center>
+        </nav>
+
+        <hr>
+    </header>
+
+    <div id="content">
+        <div>
+            <img src="1.jpg" alt="event1">
+            <p>The Department of Computer Science and Engineering in association with the Coding Blocks CUIET Chapter at
+                Chitkara University, Punjab, is gleeful to present "AI & ML Ventures: Nurturing Future Innovations"
+                scheduled for 30th of April 2024, initiating at 10:30 am . This exhilarated session will unfold at the
+                Einstein Hall, Galileo Block.</p>
+        </div>
+        <div>
+            <img src="2.jpg" alt="eventposter">
+            <p>Coding Blocks with CUIET Chapter is excited to announce Anveshan, our epic coding event on March 21st!
+                Anveshan awaits, a place where inspiration meets creativity. Think you're a coding wizard? Put your
+                skills to the test with exciting coding activities, forge valuable connections, and discover a world of
+                engaging games and challenges. Get ready to code, solve, and celebrate your coding prowess! </p>
+        </div>
+        <div>
+            <img src="3.jpg" alt="poster">
+            <p>The Department of Computer Science and Engineering in association with the Coding Blocks CUIET Chapter at
+                Chitkara University, Punjab is delighted to invite you to a session on "Coding Brilliance: Innovating
+                Data Structures and Algorithms" conducted by esteemed expert Sushmen Chaudhari, Trainer at HitBullsEye
+                and an alumnus of IIT Roorkee slated for 23rd February 2024, from 2:00 p.m. to 3:30 p.m at TG 510.</p>
+        </div>
+        <div>
+            <img src="4.jpg" alt="poster">
+            <p>The Department of Computer Science and Engineering in association with the Coding Blocks CUIET Chapter at
+                Chitkara University, Punjab, is elated to present "PLACEMENT SPRINT, INQUISITIVE: the critical thinking
+                placement quiz" scheduled for 12th of January, 2024, initiating at 10:30 am for 3rd Year B.E CSE & B.E
+                CSE(AI). This exhilarated quiz will unfold at the Pierre Hall, Le Corbusier Block (Architecture Block).
+            </p>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div>
+            <p id="contact">CONTACT US</p>
+            <div id="div">
+                <a id="instagram" href="#" class="fa fa-instagram"></a>
+                <a id="facebook" href="#" class="fa fa-facebook-f"></a>
+                <a id="linkedin" href="#" class="fa fa-linkedin-square"></a>
+                <a id="twitter" href="#" class="fa fa-twitter"></a>
+                <a id="github" href="#" class="fa fa-github"></a>
+            </div>
+            <p id="p">If you prefer not to receive emails like this, you may unsubscribe (c) 2021 Ampier. All rights
+                reserved.</p>
+            <a id="chitkara" href="">Chitkara.com</a>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.login-container {
+    width: 360px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-left: 300px;
+    width: 111px;
+    height: auto;
+    display: inline-block; /* This ensures the image is treated as a block element */
+}
+
+</style>
+<body>
+    <img src="Shop partner.png" alt="Logo" class="logo" style="width: 200px;">
+    <div class="login-container">
+       <h2>Welcome Back</h2>
+        <form action="#" method="POST" class="login-form">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

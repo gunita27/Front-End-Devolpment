@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Gigabyte Custom Keyboards</title>
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      body{
+        margin: 0;
+        background-color: rgb(83, 61, 126);
+        
+      }
+      .header{
+        background-color: rgb(218, 215, 40);
+        padding: 30px;
+        text-align:center
+      }
+      .containerfooter{
+        background-color: #202020;
+        color: #ffffff;
+        width:100%;
+        padding-top: 10px;
+        display:flex;
+        margin: 0px;
+      }
+      .Footer_lists{
+        list-style: none;
+        text-align: left;
+        margin-left: 5%;
+        margin-right: 0;
+      }
+      .content{
+        font-family: 'Poppins', sans-serif;
+        font-size: medium;
+        list-style: none;
+      }
+      .topnav{
+        background-color: rgb(32, 30, 34);
+        overflow: hidden;
+      
+      }
+      .topnav a{
+        float: left;
+        display: block;
+        color: rgb(230, 202, 42);
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .topnav a:hover{
+        background-color: rgb(89, 42, 165);
+        color: rgb(196, 124, 41);
+      }
+      .img1{
+        float: left;
+        height: 50px;
+        width: 50px;
+      }
+      .img2{
+        display: block;
+        float:left;
+        height: 80px;
+        width: 80px;
+        margin-top: -20px;
+        margin-right: -100px;
+        border-radius: 20px;
+            }
+      ul{
+        list-style-type: none;
+      }
+      .li1{
+        list-style-type: none;
+          }
+      .hp1{
+        display: block;
+        font-family:serif;
+        font-size: 40px;
+      }
+      input[type="submit"]:hover{
+      background-image:radial-gradient(#e4a950 24%,#e66245);
+      }
+      @media only screen and (max-width: 600px) {
+      *{
+          width: 100%;
+        }
+      body {
+          background-color: rgb(199, 180, 34);
+      }
+
+      .header {
+          padding: 15px;
+          font-size: 7px;
+          background-color: grey;
+            }
+      .topnav {
+        padding: 10px;
+      }
+      .containerfooter {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .img1{
+        display: block;
+        float: none;
+        margin: 0 auto;
+        height: 7vh;
+        width: 7vh;
+      }
+      .img2{
+        display: block;
+        height: 7vh;
+        width: 7vh;
+      }
+      .hp1{
+        display: block;
+        font-size: 15px;
+      }
+    }
+    </style>
+</head>
+<body> 
+  <div class="header">
+    <ul>
+        <li class="li1"><img src="data:image/png;base64,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" class="img2"></li>
+        <li class="li1"><h1 class="hp1">GIGABYTE CUSTOM KEYBOARDS</h1></li>
+    </ul>
+  </div>
+
+  <div class="topnav">
+    <img src="data:image/png;base64,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" class="img1">
+    <a href="logo.png">Home</a>
+    <a href="logo.png">Customize your own keyboard</a>
+    <a href="logo.png">Pre-orders</a>
+    <a href="logo.png">New arrivals</a>
+    <a href="logo.png">Contact us</a>
+    <a href="logo.png">More about us</a>
+  </div>
+
+  <h1 align="center" style="font-size: 450%;color: rgb(215, 116, 22); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >BLACK FRIDAY BONANZA SALE!</h1>
+
+  <div align="center">
+    <img src="https://www.pngkey.com/png/full/179-1791779_katakana-by-marius-104-key-custom-mechanical-keyboard.png" style="max-width: 80%;" >
+  </div>
+  <p align="center" style="font-size: 150%;color: rgb(236, 236, 235); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">UP TO</p>
+  <p align="center" style="font-size: 600%;color: rgb(221, 217, 26); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-top: -10px;">50% OFF</p>
+  <p align="center" style="font-size: 300%;color: rgb(14, 14, 14); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-top: -75px;">PRE ORDER THE NEW RED SAMURAI SG-104 NOW!</p>
+  <p align="center" style="font-size: 300%;color: rgb(221, 217, 26); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-top: -10px;">Hotswappable mechanical keyboard</p>
+  <p align="center" style="font-size: 300%;color: rgb(221, 217, 26); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-top: -10px;">LATEST USB TYPE-C PAIRED WITH WIFI 6E</p>
+  <div align="center">
+    <input type="submit" value="Pre-order" style=" background-color: yellowgreen; height: 50px; width: 200px; max-width: 80%; border-radius: 12px;">   
+    <input type="submit" value="Customize" style=" background-color: yellowgreen; height: 50px; width: 200px; max-width: 80%; border-radius: 12px;">
+  </div>
+        <div class="containerfooter">
+          <div class="Footer_lists">
+              <ul class="content">
+                  <li><h2>Contact us:</h2></li>
+                    <li>
+                      <p>E-MAIL: gigabytekb@gmail.com</p>
+                    </li>
+                    <li>
+                      <p>WHATSAPP: +91 1234 567 890</p>
+                    </li>
+                    <li>
+                      <p>CONTACT NO.: +91 1234 567 890</p>
+                    </li> 
+              </ul>
+          </div>
+          <div class="Footer_lists">
+              <ul class="ul">
+                  <li><h2>Meet us:</h2></li>
+                  <li class="content">Gigabyte Custom Keyboards Pvt. Ltd.<br>
+                  123 Tech Park Road Bandra East<br>
+                  Mumbai, Maharashtra 400051<br>
+                  India</li>
+              </ul>
+          </div>
+      </div>
+</body>
+</html>
